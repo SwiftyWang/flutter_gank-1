@@ -3,43 +3,65 @@
     <img alt="gank.io" src="https://ws1.sinaimg.cn/large/0065oQSqly1fyli3kk857j305c05cjrc.jpg" width="140">
   </a>
 </p>
-<p align="center">干货集中营「官方版」<a href="https://gank.io/app/gank">https://gank.io/app/gank</a></p>
+<p align="center">干货集中营「官方版」</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/build-passing-52C434.svg">
-  <img src="https://img.shields.io/badge/version-1.0.1-52C434.svg">
+  <img src="https://img.shields.io/badge/version-1.0.2-52C434.svg">
   <img src="https://img.shields.io/badge/flutterSdk-1.1.4-red.svg">
   <img src="https://img.shields.io/badge/language-dart2-blue.svg">
   <img src="https://img.shields.io/badge/license-MIT-orange.svg">
 </p>
 
 # 简介
-「干货集中营」是一款注重体验的 Gank.io 官方客户端，App整体秉承Material简洁风格，包含搜索，收藏，提交干货，按期浏览、分类浏览等功能，还有漂亮的妹纸等你哦，快来[下载](http://gank.io/static/apk/app-release-1.0.1.apk)吧~,官网地址: [https://gank.io/app/gank](https://gank.io/app/gank)
+「干货集中营」是一款注重体验的 Gank.io 官方客户端，App整体秉承Material简洁风格，包含搜索，收藏，提交干货，按期浏览、分类浏览等功能，还有漂亮的妹纸等你哦，快来[下载](https://raw.githubusercontent.com/lijinshanmx/flutter_gank/master/apks/app-release-latest.apk)吧~,官网地址:[https://gank.io/app/gank](https://gank.io/app/gank)  
 
 ## 应用截图
 
-| ![1](https://ws1.sinaimg.cn/large/0065oQSqly1fylfbepzt7j30ps18yaxk.jpg) | ![2](https://ws1.sinaimg.cn/large/0065oQSqly1fylfbqnnzrj30ps18ywwv.jpg) | ![3](https://ws1.sinaimg.cn/large/0065oQSqly1fylfc4r4mgj30ps18ye81.jpg) | ![4](https://ws1.sinaimg.cn/large/0065oQSqly1fylhxlnd24j30ps18ydx3.jpg) | ![5](https://ws1.sinaimg.cn/large/0065oQSqly1fymcgw2uaij30ps18yap9.jpg) |
+| ![1](https://ws1.sinaimg.cn/large/0065oQSqly1fyt98vkcuxj30ps18yh9c.jpg) | ![2](https://ws1.sinaimg.cn/large/0065oQSqly1fylfbqnnzrj30ps18ywwv.jpg) | ![3](https://ws1.sinaimg.cn/large/0065oQSqly1fylfc4r4mgj30ps18ye81.jpg) | ![4](https://ws1.sinaimg.cn/large/0065oQSqly1fylhxlnd24j30ps18ydx3.jpg) | ![5](https://ws1.sinaimg.cn/large/0065oQSqly1fyt99whhpij30ps18yhdt.jpg) |
 | :--: | :--: | :--: | :--: | :--: |
-| 首页 | 分类 | 妹纸 | 收藏 | 关于|
+| 首页 | 分类 | 妹纸 | 收藏 | 干货历史|
 
 
 ## 下载
 
 | 类型          | 二维码                                      |
 | ----------- | ---------------------------------------- |
-| **安卓下载**  | <img src="https://ws1.sinaimg.cn/large/0065oQSqly1fynmqb46amj308c08c748.jpg" width = "160"  alt="qr_apk" /> |
+| **安卓下载**  | <img src="https://ws1.sinaimg.cn/large/0065oQSqly1fywl59574cj308c08c0sp.jpg" width = "160"  alt="qr_apk" /> |
 | **IOS暂无下载** | <img src="https://ws1.sinaimg.cn/large/0065oQSqly1fynmxdifkmj306o05udgf.jpg" width = "160"  alt="qr_ios" /> |
 
-> (╯‵□′)╯︵┻━┻，第三方太贵，没企业证书。  
 > 哪位朋友有开发者账号，如果能帮忙上架App Store💪，真是感激不尽🙏~
 
+## Todo
+
+- [x] 用户登录(Github,现已支持密码和浏览器登录两种方式)
+- [x] 收藏同步到云端【现已支持:上传本地到云端，下载云端到本地】
+- [x] 多主题切换【目前有10种主题色:海棠红,鸢尾蓝,孔雀绿,柠檬黄,藤萝紫,暮云灰,虾壳青,牡丹粉,筍皮棕】
+- [x] 多语言支持【中文和英文，英文未翻译完全】
+- [x] 重构代码【正在进行中ing】
+- [x] 英文翻译完善
+- [x] 网络缓存实现
+- [ ] 多状态处理
+- [ ] 分类页、搜索页UI及功能继续完善
+- [ ] 收藏支持本地和云端合并、支持恢复指定日期的收藏备份
+- [ ] 备份应用程序配置到云端，比如主题色，语言配置等
+- [x] ~实现桌面版Flutter Gank【暂不考虑了】,具体可参考[flutter-desktop-embedding](https://github.com/google/flutter-desktop-embedding)~
+
+- [ ] iOS端代码PR【首需要本地实现阿里反馈，检查更新，获取版本号，因为我对ios不了解，所以只实现了安卓端的，如果你有兴趣，或者正在学习flutter，欢迎PR哦~】】   
+- [ ] 上线iOS版本【优先级低~】
+
 ## 版本更新记录
-- 1.0.1  [2018-12-29]  
+### V1.0.2  [2018-01-03]  
+  1、ui调整.  
+  2、添加Github登录.  
+  3、添加历史干货页面.  
+  4、bug fix. 
+### V1.0.1  [2018-12-29]  
   1、ui调整.  
   2、添加用户反馈.  
   3、添加设置页面.  
   4、bug fix.  
-- 1.0.0  [2018-12-28]  
+### V1.0.0  [2018-12-28]  
   1、first release 版本.  
   2、搭建了基础的项目框架结构.  
   3、实现了最新，分类，妹纸图，搜索等基本功能.  
@@ -47,8 +69,10 @@
 
 ## 编译运行
 
+> 注意:运行之前，记得pull下代码，因为代码可能已经更新~
+
 ```bash
-$ flutter run
+$ flutter run [--release]
 ```
 
 ## 功能
@@ -59,10 +83,6 @@ $ flutter run
 - 提交干货
 - **妹子图**
 
-## Todo
-
-- 用户登录
-- 上线iOS版本
 
 ## Developers
 
@@ -87,8 +107,9 @@ $ flutter run
 
 
 ## Thanks
-感谢@[JohnnyShieh](https://github.com/JohnnyShieh)的Java Gank项目,这里使用了其图标和主配色。  
-感谢@[peng8350](https://github.com/peng8350)的Flutter_gank项目,这里使用借鉴了其代码组织架构以及启动页的样式。  
+
+[所有的开源的人](https://github.com)  
+[干货集中营](http://gank.io/)    
 
 
 ### 第三方框架
